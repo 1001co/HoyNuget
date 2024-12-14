@@ -18,9 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Middleware\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HoyNuget.ServiceDefaults\HoyNuget.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

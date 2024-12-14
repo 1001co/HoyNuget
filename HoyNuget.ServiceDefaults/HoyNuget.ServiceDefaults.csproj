@@ -19,4 +19,9 @@
     <PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HoyNuget.Core\HoyNuget.Core.csproj" />
+    <ProjectReference Include="..\HoyNuget.Infrastructure\HoyNuget.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
