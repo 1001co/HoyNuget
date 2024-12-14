@@ -1,0 +1,6 @@
+@HoyNuget_HostAddress = http://localhost:5182
+
+GET {{HoyNuget_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
